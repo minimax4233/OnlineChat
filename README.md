@@ -1,6 +1,6 @@
 # Onlice Chat
 
-client 為客戶端，server 為服務器端
+OnlineChat_Client 為客戶端，OnlineChat_Server 為服務器端，在2020年9月-2021年1月編寫
 
 ## 功能演示
 
