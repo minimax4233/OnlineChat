@@ -10,13 +10,13 @@ client 為客戶端，server 為服務器端
 
    主界面
 
-   ![image-20201227233842361](README.assets\image-20201227233842361.png)
+   ![image-20201227233842361](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227233842361.png)
 
    菜單
 
-   ![image-20201227234110854](README.assets\image-20201227234110854.png)
+   ![image-20201227234110854](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227234110854.png)
 
-   ![image-20201227234125681](README.assets\image-20201227234125681.png)
+   ![image-20201227234125681](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227234125681.png)
 
    
 
@@ -24,13 +24,13 @@ client 為客戶端，server 為服務器端
 
    主界面
 
-   ![image-20201227233850804](README.assets\image-20201227233850804.png)
+   ![image-20201227233850804](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227233850804.png)
 
    菜單
 
-   ![image-20201227234146451](README.assets\image-20201227234146451.png)
+   ![image-20201227234146451](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227234146451.png)
 
-   ![image-20201227234154069](README.assets\image-20201227234154069.png)
+   ![image-20201227234154069](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227234154069.png)
 
 
 
@@ -40,41 +40,41 @@ client 為客戶端，server 為服務器端
 
   輸入端口後按運行即可启動服務器，按停止就關閉服務器。默认端口65535
 
-  ![image-20201227234328521](README.assets\image-20201227234328521.png)
+  ![image-20201227234328521](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227234328521.png)
 
   server 左側用戶框可以看到當前連接用戶，右側信息框可以看到一些資訊和用戶之間的消息。
 
-  ![image-20201227234524476](README.assets\image-20201227234524476.png)
+  ![image-20201227234524476](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227234524476.png)
 
   在結束程序時會有二次確認。
 
-  ![image-20201227234924966](README.assets\image-20201227234924966.png)
+  ![image-20201227234924966](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227234924966.png)
 
   端口不合法会有提示。
 
-  ![image-20201227235039576](README.assets\image-20201227235039576.png)
+  ![image-20201227235039576](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227235039576.png)
 
 * Client
 
   输入用戶名、IP、端口后按連接即可連接到服務器
 
-  ![image-20201227234615169](README.assets\image-20201227234615169.png)
+  ![image-20201227234615169](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227234615169.png)
 
   選擇用戶后按發送表示單發給該用戶，按群發則是群發信息給所有用戶。
 
-  ![image-20201227234733323](README.assets\image-20201227234733323.png)
+  ![image-20201227234733323](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227234733323.png)
 
-  ![image-20201227234741670](README.assets\image-20201227234741670.png)
+  ![image-20201227234741670](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227234741670.png)
 
   當甚麼都不输入時按下連接、服务器不存在等會有報錯。
 
-  ![image-20201227234815035](README.assets\image-20201227234815035.png)
+  ![image-20201227234815035](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227234815035.png)
 
-  ![image-20201227234856402](README.assets\image-20201227234856402.png)
+  ![image-20201227234856402](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227234856402.png)
 
   在結束程序時會有二次確認。
 
-  ![image-20201227234924966](README.assets\image-20201227234924966.png)
+  ![image-20201227234924966](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227234924966.png)
 
 ## 实现方式
 
@@ -84,11 +84,11 @@ client 為客戶端，server 為服務器端
 
    Main 为程序入口，ChatServer 为程序主界面和核心，ButtonHandler、MenuHandler、WindowsHandler分別为按鈕、菜單欄、窗口的控制器，監聽用戶事件。
 
-![image-20201227235109366](README.assets\image-20201227235109366.png)
+![image-20201227235109366](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227235109366.png)
 
 2. client
 
-![image-20201227235117276](README.assets\image-20201227235117276.png)
+![image-20201227235117276](https://raw.githubusercontent.com/minimax4233/OnlineChat/main/README.assets\image-20201227235117276.png)
 
 Main 为程序入口，Chatclient 为程序主界面和核心，ButtonHandler、MenuHandler、WindowsHandler分別为按鈕、菜單欄、窗口的控制器，監聽用戶事件。
 
